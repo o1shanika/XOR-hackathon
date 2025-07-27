@@ -24,8 +24,8 @@
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/your-app-preview.png" width="60%" alt="Ahasa App Preview">
-  <img width="512" height="512" alt="8727713" src="https://github.com/user-attachments/assets/dbed11f0-a9fe-4a62-aa0e-9c1993cd271d" />
+ <img width="402" height="874" alt="3_Splash" src="https://github.com/user-attachments/assets/85891de3-6391-41b2-b31c-524c1550eb58" />
+
 
 </div>
 
