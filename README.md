@@ -43,8 +43,10 @@ Ahasa offers:
 ## 📲 User Flow
 
 1. **User signs in** via SLUDI (OAuth-based)
-2. **App pulls embassy data** using NDX sandbox
-3. **User sends money** home via PayDPI sandbox (secure & trackable)
+2. **One Tap Button for emergency services.**
+3. **Communicate with felow Sri Lankan workers** 
+4. **App pulls embassy data** using NDX sandbox
+5. **User sends money** home via PayDPI sandbox (secure & trackable)
 
 ---
 
