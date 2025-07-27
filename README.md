@@ -1,83 +1,86 @@
 <h1 align="center">🌐 Ahasa</h1>
 <p align="center">
-  <b>Empowering Sri Lankan Migrant Women Workers Across Borders</b><br>
+  <b>Empowering Sri Lankan Migrant Women Workers Around the World</b><br>
   <i>"A voice of safety, a path to support – from anywhere in the world."</i>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-In%20Development-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/DPI%20Enabled-SLUDI%20|%20NDX%20|%20PayDPI-blueviolet?style=flat-square" />
-  <img src="https://img.shields.io/badge/Built%20With-Flutter%20%7C%20Python%20%7C%20AWS-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Built%20With-React%20Native%20%7C%20Node.js%20%7C%20MongoDB-yellow?style=flat-square" />
 </p>
 
 ---
 
 ## 📱 About Ahasa
 
-**Ahasa** is a mobile-first platform designed for **Sri Lankan migrant women workers**. It provides:
+**Ahasa** is a mobile-first platform designed to support **Sri Lankan migrant women workers** by providing:
+- ✅ Secure login with verified identity (**SLUDI**)
+- 🆘 Instant access to emergency services & embassy data (**NDX**)
+- 💸 Seamless money transfers to Sri Lanka (**PayDPI**)
+- 📁 Safe digital locker for documents (contracts, IDs)
+- 💬 Community support via in-app messaging
 
-- ✅ Verified identity login (SLUDI)
-- 🆘 Instant access to emergency contacts (NDX)
-- 💸 Secure money transfers to Sri Lanka (PayDPI)
-- 📁 Document locker for safe storage (NDX)
-
-All through one simple, accessible, multilingual app.
+---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/your-image-placeholder.png" width="60%" alt="Ahasa App Preview">
+  <img src="https://user-images.githubusercontent.com/your-app-preview.png" width="60%" alt="Ahasa App Preview">
 </div>
 
 ---
 
 ## 💡 Problem Statement
 
-> Many Sri Lankan women working abroad face isolation, exploitation, and difficulty accessing reliable support services or safely sending money home.
+> Many Sri Lankan women working abroad face **isolation**, **risk**, and **difficulty accessing help or sending money home** securely.
 
-Ahasa solves these challenges through **secure identity, real-time data access, and a support-first interface**.
-
----
-
-## 🧩 DPI Integration
-
-| DPI Tool   | Function in Ahasa                          |
-|------------|--------------------------------------------|
-| **SLUDI**  | OAuth 2.0-based identity verification       |
-| **NDX**    | Embassy & support data, document exchange   |
-| **PayDPI** | Secure payment simulation & escrow flow     |
+Ahasa bridges this gap by offering a unified, secure mobile platform built on Sri Lanka’s Digital Public Infrastructure (DPI).
 
 ---
 
-## 🧪 Features at a Glance
+## 🔐 DPI Stack Integration
 
-- 👩‍💼 **SLUDI-verified sign in**
-- 📍 **Emergency location-based contact directory**
-- 💬 **Support chat rooms for workers abroad**
-- 💸 **Money transfers with PayDPI sandbox**
-- 📂 **Digital document locker**
-- 📊 **Multilingual and mobile-friendly UI**
+| DPI Tool   | Ahasa Functionality                          |
+|------------|----------------------------------------------|
+| **SLUDI**  | Identity verification for migrant workers    |
+| **NDX**    | Access to embassy data, document storage     |
+| **PayDPI** | Remittance and digital payments (sandbox)    |
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-| Layer        | Tools Used                     |
-|--------------|--------------------------------|
-| Frontend     | React Native                  |
-| Backend      | Node.js              |
-| APIs         | SLUDI, NDX, PayDPI (sandbox)   |
-| DevOps       | Docker, GitHub Actions, Helm   |
+- 👩‍💼 SLUDI-based secure user login
+- 📍 Emergency contact directory (via NDX)
+- 💬 Safe chat & community for migrant women
+- 💸 Send money securely via PayDPI (simulated)
+- 📂 Upload and store ID/passport in digital locker
+- 🌐 Multilingual support (Sinhala, Tamil, English)
+
+---
+
+## 🛠 Tech Stack
+
+| Component       | Technology Used           |
+|------------------|---------------------------|
+| Mobile App       | React Native              |
+| Backend API      | Node.js, Express.js       |
+| Database         | MongoDB (Cloud Atlas)     |
+| Auth & Identity  | SLUDI Sandbox (OAuth2)    |
+| Data Access      | NDX Sandbox (REST APIs)   |
+| Payments         | PayDPI Sandbox            |
+| Deployment       | Docker, GitHub Actions    |
 
 ---
 
 ## 🔁 User Flow Diagram
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/your-flow-diagram-placeholder.png" width="70%" alt="Ahasa User Flow">
+  <img src="https://user-images.githubusercontent.com/your-flow-diagram.png" width="70%" alt="Ahasa User Flow">
 </div>
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 ```bash
 ahasa/
@@ -85,11 +88,12 @@ ahasa/
 ├── docs/
 │   ├── problem.md
 │   └── solution.md
-├── src/
-│   ├── frontend/    
-│   └── backend/    
+├── client/             # React Native App
+├── server/             # Node.js API
+│   ├── routes/
+│   └── controllers/
+├── database/           # MongoDB connection
 └── api/
-    
-
+    └── openapi.yaml    # Swagger API documentation
 
 
