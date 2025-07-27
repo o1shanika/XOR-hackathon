@@ -1,69 +1,95 @@
-# 🌐 Ahasa – Empowering Sri Lankan Migrant Women Workers
+<h1 align="center">🌐 Ahasa</h1>
+<p align="center">
+  <b>Empowering Sri Lankan Migrant Women Workers Across Borders</b><br>
+  <i>"A voice of safety, a path to support – from anywhere in the world."</i>
+</p>
 
-> **"A voice of safety, a path to support – from anywhere in the world."**
+<p align="center">
+  <img src="https://img.shields.io/badge/status-In%20Development-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/DPI%20Enabled-SLUDI%20|%20NDX%20|%20PayDPI-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/Built%20With-Flutter%20%7C%20Python%20%7C%20AWS-yellow?style=flat-square" />
+</p>
 
-Ahasa is a mobile-first platform designed to support **Sri Lankan migrant women workers** by offering secure identity verification, access to emergency contacts, and seamless money transfers. Built for the **ReviveNation Hackathon**, Ahasa leverages **Sri Lanka's Digital Public Infrastructure (SLUDI, NDX, and PayDPI)** to deliver real-time value, protection, and empowerment to one of the most underserved communities.
+---
+
+## 📱 About Ahasa
+
+**Ahasa** is a mobile-first platform designed for **Sri Lankan migrant women workers**. It provides:
+
+- ✅ Verified identity login (SLUDI)
+- 🆘 Instant access to emergency contacts (NDX)
+- 💸 Secure money transfers to Sri Lanka (PayDPI)
+- 📁 Document locker for safe storage (NDX)
+
+All through one simple, accessible, multilingual app.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/your-image-placeholder.png" width="60%" alt="Ahasa App Preview">
+</div>
 
 ---
 
 ## 💡 Problem Statement
 
-Many Sri Lankan women working abroad face:
-- Isolation and lack of support
-- Difficulty sending money home securely
-- Limited access to verified legal or emergency contacts
+> Many Sri Lankan women working abroad face isolation, exploitation, and difficulty accessing reliable support services or safely sending money home.
 
-These challenges create **vulnerabilities in safety, financial stability, and dignity**.
+Ahasa solves these challenges through **secure identity, real-time data access, and a support-first interface**.
 
 ---
 
-## 🚀 Our Solution
+## 🧩 DPI Integration
 
-Ahasa offers:
-- ✅ **SLUDI-based Secure Login**: Verified identity login for safe access
-- 🆘 **Emergency Support**: Pull embassy/NGO contacts through NDX
-- 💸 **Money Transfers**: Send funds via PayDPI simulation (escrow-enabled)
-- 📁 **Document Locker**: Store passport copies, contracts, IDs (NDX-based)
-- 🌍 **Multilingual & Accessible** UI for ease of use abroad
-
----
-
-## 🔧 Tech Stack & DPI Integration
-
-| Layer       | Technology             |
-|-------------|-------------------------|
-| **Frontend** | Flutter Progressive Web App (PWA) |
-| **Identity** | SLUDI Sandbox |
-| **Data**     | NDX Sandbox (embassy contacts, user profiles) |
-| **Payments** | PayDPI Sandbox |
-| **Infrastructure** | Docker, Kubernetes (helm charts), GitHub Actions |
+| DPI Tool   | Function in Ahasa                          |
+|------------|--------------------------------------------|
+| **SLUDI**  | OAuth 2.0-based identity verification       |
+| **NDX**    | Embassy & support data, document exchange   |
+| **PayDPI** | Secure payment simulation & escrow flow     |
 
 ---
 
-## 📲 User Flow
+## 🧪 Features at a Glance
 
-1. **User signs in** via SLUDI (OAuth-based)
-2. **One Tap Button for emergency services.**
-3. **Communicate with felow Sri Lankan workers** 
-4. **App pulls embassy data** using NDX sandbox
-5. **User sends money** home via PayDPI sandbox (secure & trackable)
-
----
-
-## 🔗 API Design (OpenAPI)
-
-- RESTful API with clean, reusable endpoints
-- Fully documented on Swagger-UI (`/api`)
-- Postman collection included
+- 👩‍💼 **SLUDI-verified sign in**
+- 📍 **Emergency location-based contact directory**
+- 💬 **Support chat rooms for workers abroad**
+- 💸 **Money transfers with PayDPI sandbox**
+- 📂 **Digital document locker**
+- 📊 **Multilingual and mobile-friendly UI**
 
 ---
 
-## ⚙️ Setup & Deployment
+## 🛠️ Tech Stack
+
+| Layer        | Tools Used                     |
+|--------------|--------------------------------|
+| Frontend     | Flutter (PWA)                  |
+| Backend      | Python, FastAPI                |
+| APIs         | SLUDI, NDX, PayDPI (sandbox)   |
+| DevOps       | Docker, GitHub Actions, Helm   |
+
+---
+
+## 🔁 User Flow Diagram
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/your-flow-diagram-placeholder.png" width="70%" alt="Ahasa User Flow">
+</div>
+
+---
+
+## 📂 Project Structure
 
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/ahasa-hackathon.git
-cd ahasa-hackathon
+ahasa/
+├── README.md
+├── docs/
+│   ├── problem.md
+│   └── solution.md
+├── src/
+│   ├── frontend/    # Flutter PWA
+│   └── backend/     # Python APIs
+└── api/
+    └── openapi.yaml
 
 
 
