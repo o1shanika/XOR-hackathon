@@ -63,8 +63,5 @@ Ahasa offers:
 git clone https://github.com/your-username/ahasa-hackathon.git
 cd ahasa-hackathon
 
-# Deploy with Helm (sample)
-helm install ahasa ./helm
 
-# Run frontend (Flutter PWA)
-flutter run -d chrome
+
