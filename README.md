@@ -62,8 +62,8 @@ Ahasa solves these challenges through **secure identity, real-time data access, 
 
 | Layer        | Tools Used                     |
 |--------------|--------------------------------|
-| Frontend     | Flutter (PWA)                  |
-| Backend      | Python, FastAPI                |
+| Frontend     | React Native                  |
+| Backend      | Node.js              |
 | APIs         | SLUDI, NDX, PayDPI (sandbox)   |
 | DevOps       | Docker, GitHub Actions, Helm   |
 
@@ -86,10 +86,10 @@ ahasa/
 │   ├── problem.md
 │   └── solution.md
 ├── src/
-│   ├── frontend/    # Flutter PWA
-│   └── backend/     # Python APIs
+│   ├── frontend/    
+│   └── backend/    
 └── api/
-    └── openapi.yaml
+    
 
 
 
