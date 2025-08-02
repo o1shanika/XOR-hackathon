@@ -31,7 +31,7 @@ Below are real-world examples and news sources highlighting these issues faced b
 
 ### 🗣️ Parliamentary Speech – 2024.07.23  
 Recent discussions in the Sri Lankan Parliament confirm that these problems persist today.  
-🔗 [Read or Watch the Full Speech](#) <!-- Replace # with the actual link -->
+🔗 [https://www.youtube.com/live/fx2RiTmRAI8](#) <!-- Replace # with the actual link -->
 
 ### 🖼️ Evidence & Reports  
 Please refer to the following sources for visual evidence and online reports documenting these issues:  
@@ -51,3 +51,4 @@ This project aims to address these pressing problems by providing an all-in-one 
 - ✅ Mental Health Support in Native Languages  
 - ✅ Legal & Financial Awareness  
 - ✅ Community and Peer Connectivity  
+
