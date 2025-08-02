@@ -70,7 +70,7 @@ Ahasa bridges this gap by offering a unified, secure mobile platform built on Sr
 | Auth & Identity  | SLUDI Sandbox (OAuth2)    |
 | Data Access      | NDX Sandbox (REST APIs)   |
 | Payments         | PayDPI Sandbox            |
-| Deployment       | Docker, GitHub Actions    |
+| Deployment       | Docker, GitHub Actions |
 
 ---
 
@@ -90,12 +90,7 @@ ahasa/
 ├── docs/
 │   ├── problem.md
 │   └── solution.md
-├── client/             # React Native App
-├── server/             # Node.js API
-│   ├── routes/
-│   └── controllers/
-├── database/           # MongoDB connection
-└── api/
-    └── openapi.yaml    # Swagger API documentation
+├── src/             # React Native App
+
 
 
