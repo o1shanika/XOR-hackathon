@@ -1,4 +1,5 @@
-🧕 Problem Addressed: Challenges Faced by Sri Lankan Housemaids Abroad
+🧕 Problem Addressed
+Challenges Faced by Sri Lankan Housemaids Abroad
 Many Sri Lankan women migrate to Middle Eastern countries seeking better job opportunities as housemaids. Unfortunately, many of them face serious challenges that put their safety, well-being, and rights at risk. These challenges often go unreported or unresolved due to lack of access to immediate support systems.
 
 ⚠️ Key Problems
@@ -34,4 +35,5 @@ Please refer to the following sources for visual evidence and online reports doc
 
 <!-- Replace # with actual URLs to images or articles -->
 This project aims to address these pressing problems by providing an all-in-one digital solution tailored specifically for Sri Lankan migrant housemaids, focusing on safety, mental well-being, legal awareness, and community buildin
+
 
