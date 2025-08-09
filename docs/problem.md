@@ -35,10 +35,8 @@ Recent discussions in the Sri Lankan Parliament confirm that these problems pers
 
 ### 🖼️ Evidence & Reports  
 Please refer to the following sources for visual evidence and online reports documenting these issues:  
-- 🖼️ [Image 1 – Abuse Cases](#)  
-- 🖼️ [Image 2 – Embassy Help Delays](#)  
-- 🖼️ [Image 3 – Mental Health Struggles](#)  
-- 🖼️ [Image 4 – Currency Rate Confusion](#)  
+- 🖼️ [Image 1 – Abuse![img](https://github.com/user-attachments/assets/e3ae1a02-f340-4713-a706-649fccfab2f7)
+
 <!-- Replace # with actual URLs to images or articles -->
 
 ---
@@ -51,4 +49,5 @@ This project aims to address these pressing problems by providing an all-in-one 
 - ✅ Mental Health Support in Native Languages  
 - ✅ Legal & Financial Awareness  
 - ✅ Community and Peer Connectivity  
+
 
