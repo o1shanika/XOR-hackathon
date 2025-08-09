@@ -41,13 +41,5 @@ Please refer to the following sources for visual evidence and online reports doc
 
 ---
 
-## 🎯 Our Mission
-
-This project aims to address these pressing problems by providing an all-in-one digital solution tailored specifically for Sri Lankan migrant housemaids, focusing on:
-
-- ✅ Emergency Help Access  
-- ✅ Mental Health Support in Native Languages  
-- ✅ Legal & Financial Awareness  
-- ✅ Community and Peer Connectivity  
 
 
