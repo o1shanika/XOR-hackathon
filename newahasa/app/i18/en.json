@@ -1,0 +1,99 @@
+{
+  "greeting": "Hey!",
+  "help_text": "Help is just a click away!",
+  "sos_highlight": "Click SOS button to call the help.",
+  "ai_chat_assistant": "AI Chat Assistant",
+  "currency_exchanger": "Currency Exchanger",
+  "currency_exchange": "Currency Exchanger",
+  "document_upload": "Upload Documents",
+  "Nearby Users": "Nearby Users",
+  "community": {
+    "nearbyUsers": "Nearby Users",
+    "allCountryUsers": "All Country Users",
+    "nearbyUsersIn": "👥 Nearby Users in",
+    "allUsersInCountry": "🌍 All Users in Your Country",
+    "noNearbyUsers": "No nearby users found.",
+    "noCountryUsers": "No users found in your country."
+  },
+   "accountDetails": {
+    "profileDetails": "Profile Details",
+    "name": "Name",
+    "email": "Email",
+    "country": "Country",
+    "location": "City",
+    "mobileNumber": "Mobile Number",
+    "emergencyContact": "Emergency Contact Number",
+    "saved": "Saved!",
+    "saveFailed": "Failed to save. Try again."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "logout": "Logout"
+  },
+  "emergency":{
+  "reportEmergency": "Report Emergency",
+  "selectEmergencyType": "Select Emergency type",
+  "contactPhone": "Contact Phone Number",
+  "typeMessage": "Type your message",
+  "send": "Send",
+  "change": "Change",
+  "redcross": "RedCross",
+  "embassy": "Embassy",
+  "slbfe": "SLBFE",
+  "ReportedByYou": "Reported by you"
+ 
+},
+
+  "start": "Start",
+
+  "signup": {
+    "title": "Let's sign you up.",
+    "subtitle": "Welcome.",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "email": "Email",
+    "yourEmail": "Your Email",
+    "password": "Password",
+    "enterPassword": "Enter your password",
+    "country": "Country",
+    "yourCountry": "Your country",
+    "location": "Add your city here",
+    "yourLocation": "Your city",
+    "mobileNumber": "Mobile Number",
+    "requiredMobile": "Mobile Number (Required)",
+    "emergency": "Emergency Contact Numbers",
+    "number1": "Number 1 (Required)",
+    "number2": "Number 2 (Optional)",
+    "hint": "Provide two mobile numbers in case of emergency need to contact",
+    "signupButton": "Sign up",
+    "creating": "Creating Account...",
+    "already": "Already a member?",
+    "login": "Log in",
+    "errorFullName": "Please enter your full name",
+    "errorEmail": "Please enter your email",
+    "errorValidEmail": "Please enter a valid email address",
+    "errorPassword": "Password must be at least 6 characters long",
+    "errorCountry": "Please enter your country",
+    "errorLocation": "Please enter your city",
+    "errorMobile": "Please enter your primary mobile number",
+    "successTitle": "Success",
+    "successMsg": "Account created successfully!",
+    "errorTitle": "Error",
+    "networkError": "Network error. Please check your connection.",
+    "unexpectedError": "An unexpected error occurred."
+  },
+  "login": {
+    "title": "Let's sign you in.",
+    "subtitle": "Welcome back.",
+    "email": "Email",
+    "yourEmail": "Your email",
+    "password": "Password",
+    "enterPassword": "Enter password",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Login",
+    "newHere": "Are you new here?",
+    "signupLink": "Sign up"
+  }
+
+}
