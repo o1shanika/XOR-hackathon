@@ -77,7 +77,7 @@ Ahasa bridges this gap by offering a unified, secure mobile platform built on Sr
 ## 🔁 User Flow Diagram
 
 <div align="center">
-  <img src="https://www.figma.com/design/KLz6GfhF42kljNvR1d5KC7/Ahasa?node-id=0-1&t=o9meXGICeIVZnu5l-0" width="70%" alt="Ahasa User Flow">
+  "https://www.figma.com/design/KLz6GfhF42kljNvR1d5KC7/Ahasa?node-id=0-1&t=o9meXGICeIVZnu5l-0" 
 </div>
 
 ---
